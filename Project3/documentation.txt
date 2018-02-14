@@ -1,0 +1,16 @@
+//Riley Marzka
+//CS1501
+//Project 3 (Indexed PQ)
+//Due: 3/18/17
+
+1) Class to store data about cars
+	-Data about cars is stored in the Car.java class. The class uses private variables with getters and setters to protect and update data. The constructor for this class creates a car with all the information passed as arguments
+
+2) Priority Queue and Indriection Table
+	-I used a min heap, CarHeap.java, for my PQ. I chose a min heap becasue the project requires retrieval of the lowest price and mileage. The constructor for the CarHeap includes an integer which will act as the sorting mode. This allowed me to create one PQ sorted by price and another sorted by mileage. By doing this I was able to avoid resorting the PQ for each request of price/mileage. 
+	-The PQ must be indexible. To acheive this I needed an indirection table. I decided to use an R-Way trie, CarTrie. I chose to index the trie with the VIN numbers of the car. The value stored at each VIN is the index in the PQ if that car. The R-Way trie has a runtime of O(b). Since b is bounded by 17, this makes the runtime constant. 
+	
+3) Hash Table
+	-Originally I was going to use a hash table as my indirection table. Half way through implementation, I decided that an R-Way trie would be easier. I hatched an idea however. In the hash table, CarHT, cars are hashed by the first letter of the make and the first 5 letters of the model. I used separate chaining to implement the hash table. By doing this, I am able to easily retreive a list of cars with a specific make and model. This prevented me from needing to search when the lowest price/mileage car of a make and model is requested. All I have to do is retrieve the list of cars that match the make and model, then find the min by either price or by mileage.
+
+	-To implement separate chaining, I needed a linked list of cars. I decided to write my own linked list, CarList, so that I could optimize it for this application. CarList is able to search and return the min price/miles car. Although the worst case is O(n), this will very rarely occur unless every car that was entered is of the same make and model.

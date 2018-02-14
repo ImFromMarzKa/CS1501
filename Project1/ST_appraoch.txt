@@ -1,0 +1,15 @@
+//Riley Marzka
+//CS1501
+//Project 1 (Password Cracker)
+//Due: 2/10/17
+
+a) The approach I took in implementing this symbol table was to use a DLB. 
+
+b) I took this approach for lack of better options, to be hoonest. I orignally tried to
+ use an R-Way Trie, but quickly found out that this would not work when I ran out of 
+ memory very quickly. I then tried to use a Ternary Search Tree. This was functional, 
+ but I am not as fimiliar with TST as I am with DLB's (after completing part one of the 
+ project). As such, I was having a hard time using the TST to return the 10 passwords 
+ which share the longest prefix. After this failure, I decided that a DLB was the way to
+  go. My PassDLB is slightly different from my DLBtrie in that I stoed a double for the 
+  value, rather than just having a boolean for the end of a key. 

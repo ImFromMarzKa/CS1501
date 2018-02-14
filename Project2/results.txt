@@ -1,0 +1,117 @@
+Riley Marzka
+CS1501
+Project 2
+2/26/17
+----------------------------------------
+Original File Sizes:
+	>all.tar:        2960 KB
+
+	>texts.tar:      1350 KB
+
+	>large.txt:      1193 KB
+
+	>bmps.tar:       1080 KB
+
+	>wacky.bmp:       901 KB
+
+	>edit.exe:        231 KB
+
+	>winnt256.bmp:    154 KB
+
+	>frosty.jpg:      124 KB
+
+	>Lego-big.gif:     92 KB
+
+	>assig2.doc:       85 KB
+
+	>code.txt:         71 KB
+
+	>code2.txt:        57 KB
+
+	>medium.txt:       25 KB
+
+	>gone_fishing.bmp: 17 KB
+
+----------------------------------------
+
+Compression Stats (Compressed file size in KB, Compression ratio)
+	>LZW.java:
+		-all.tar:          (1804, 1.641)
+		-texts.tar:        ( 989, 1.365)
+		-large.txt:        ( 591, 2.019)
+		-bmps.tar:         ( 904, 1.195)
+		-wacky.bmp:        (   5, 180.2)
+		-edit.exe:         ( 245, 0.943)
+		-winnt256.bmp:     ( 156, 0.987)
+		-frosty.jpg:       ( 174, 0.713)
+		-Lego-big.gif:     ( 126, 0.730)
+		-assig2.doc:       (  73, 1.164)
+		-code.txt:         (  31, 2.290)
+		-code2.txt:        (  24, 2.375)
+		-medium.txt:       (  13, 1.923)
+		-gone_fishing.bmp: (  10, 1.700)
+
+
+	>MyLZW.java (Do Nothing):
+		-all.tar:          (1751, 1.690)
+		-texts.tar:        ( 584, 2.312)
+		-large.txt:        ( 491, 2.430)
+		-bmps.tar:         (  80, 13.500)
+		-wacky.bmp:        (   4, 225.25)
+		-edit.exe:         ( 153, 1.510)
+		-winnt256.bmp:     (  62, 2.484)
+		-frosty.jpg:       ( 160, 0.775)
+		-Lego-big.gif:     ( 120, 0.767)
+		-assig2.doc:       (  40, 2.125)
+		-code.txt:         (  24, 2.959)
+		-code2.txt:        (  21, 2.714)
+		-medium.txt:       (  13, 1.700)
+		-gone_fishing.bmp: (   9, 1.889)
+
+	>MyLZW.java (Reset):
+		-all.tar:          (1151, 2.576)
+		-texts.tar:        ( 577, 2.340)
+		-large.txt:        ( 516, 2.312)
+		-bmps.tar:         (  80, 13.500)
+		-wacky.bmp: 	   (   4, 225.25)
+		-edit.exe:         ( 149, 1.550)
+		-winnt256.bmp:     (  62, 2.484)
+		-frosty.jpg:       ( 168, 0.738)
+		-Lego-big.gif:     ( 120, 0.767)
+		-assig2.doc:       (  40, 2.125)
+		-code.txt:         (  24, 2.959)
+		-code2.txt:        (  21, 2.714)
+		-medium.txt:       (  13, 1.700)
+		-gone_fishing.bmp: (   9, 1.889)
+
+	>MyLZW.java (Monitor):
+		-all.tar:          (1778, 1.665)
+		-texts.tar:        ( 584, 2.312)
+		-large.txt:        ( 491, 2.430)
+		-bmps.tar:         (  80, 13.500)
+		-wacky.bmp:        (   4, 225.25)
+		-edit.exe:         ( 153, 1.510)
+		-winnt256.bmp:     (  62, 2.484)
+		-frosty.jpg:       ( 160, 0.775)
+		-Lego-big.gif:     ( 120, 0.767)
+		-assig2.doc:       (  40, 2.125)
+		-code.txt:         (  24, 2.959)
+		-code2.txt:        (  21, 2.714)
+		-medium.txt:       (  13, 1.700)
+		-gone_fishing.bmp: (   9, 1.889)
+
+	>7zip:
+		-all.tar:          (812, 3.645)
+		-texts.tar:        (428, 3.154)
+		-large.txt:        (396, 3.013)
+		-bmps.tar:         ( 56, 19.286)
+		-wacky.bmp:        (  4, 225.25)
+		-edit.exe:         (100, 2.310)
+		-winnt256.bmp:     ( 44, 3.500)
+		-frosty.jpg:       (124, 1.000)
+		-Lego-big.gif:     ( 92, 1.000)
+		-assig2.doc:       ( 24, 3.542)
+		-code.txt:         ( 16, 4.438)
+		-code2.txt:        ( 16, 3.563)
+		-medium.txt:       ( 12, 2.083)
+		-gone_fishing.bmp: (  8, 2.125)
